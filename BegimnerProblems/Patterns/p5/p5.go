@@ -1,0 +1,15 @@
+package main
+
+import "fmt"
+
+func main(){
+	fmt.Println("Enter the number")
+	var n int
+	fmt.Scan(&n)
+	for i := 0;i<n;i++{
+		for j:=i;j<n;j++{
+			fmt.Print("*")
+		}
+		fmt.Println()
+	}
+}
