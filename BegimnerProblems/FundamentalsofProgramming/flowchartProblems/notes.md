@@ -57,12 +57,12 @@ Understand → Draw → Dry-run → Code
        └───────────┘
 ```
 
-**Go:**
-```go
-largest := a
-if b > largest { largest = b }
-if c > largest { largest = c }
-fmt.Println(largest)
+**Java:**
+```java
+int largest = a;
+if (b > largest) { largest = b; }
+if (c > largest) { largest = c; }
+System.out.println(largest);
 ```
 
 ---
@@ -99,13 +99,13 @@ fmt.Println(largest)
            └──────┘ (loop back)
 ```
 
-**Go:**
-```go
-sum := 0
-for i := 1; i <= n; i++ {
-    sum += i
+**Java:**
+```java
+int sum = 0;
+for (int i = 1; i <= n; i++) {
+    sum += i;
 }
-fmt.Println(sum)
+System.out.println(sum);
 ```
 
 ---
@@ -122,14 +122,14 @@ fmt.Println(sum)
 Sum = 2 + 7 + 4 = 13
 ```
 
-**Go:**
-```go
-sum := 0
-for n > 0 {
-    sum += n % 10
-    n /= 10
+**Java:**
+```java
+int sum = 0;
+while (n > 0) {
+    sum += n % 10;
+    n /= 10;
 }
-fmt.Println(sum)
+System.out.println(sum);
 ```
 
 ---
@@ -144,18 +144,18 @@ fmt.Println(sum)
 | 40-59 | D |
 | 0-39 | F |
 
-**Go:**
-```go
-if marks >= 90 {
-    fmt.Println("A")
-} else if marks >= 75 {
-    fmt.Println("B")
-} else if marks >= 60 {
-    fmt.Println("C")
-} else if marks >= 40 {
-    fmt.Println("D")
+**Java:**
+```java
+if (marks >= 90) {
+    System.out.println("A");
+} else if (marks >= 75) {
+    System.out.println("B");
+} else if (marks >= 60) {
+    System.out.println("C");
+} else if (marks >= 40) {
+    System.out.println("D");
 } else {
-    fmt.Println("F")
+    System.out.println("F");
 }
 ```
 

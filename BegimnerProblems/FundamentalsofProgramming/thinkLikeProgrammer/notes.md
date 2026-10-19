@@ -11,21 +11,21 @@
 2. **Input** — What is given?
 3. **Output** — What to produce?
 4. **Logic** — What are the steps?
-5. **Code** — Write in Go
+5. **Code** — Write in Java
 
 ---
 
 ## Example: Find Largest of 3 Numbers
 
-```go
-largest := a
-if b > largest {
-    largest = b
+```java
+int largest = a;
+if (b > largest) {
+    largest = b;
 }
-if c > largest {
-    largest = c
+if (c > largest) {
+    largest = c;
 }
-fmt.Println(largest)
+System.out.println(largest);
 ```
 
 ---

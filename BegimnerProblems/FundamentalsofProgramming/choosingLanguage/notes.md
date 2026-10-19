@@ -24,22 +24,22 @@ Problem → Algorithm → Pseudocode → Code
 
 | Language | Best For |
 |----------|----------|
-| **Go** | Backend, cloud, CLI tools, concurrency |
+| **Java** | Backend, Android, enterprise, DSA |
 | **C++** | DSA, competitive programming, games |
-| **Java** | Backend, Android, enterprise |
+| **Go** | Backend, cloud, CLI tools, concurrency |
 | **Python** | Learning, AI, data, automation |
 | **JavaScript** | Web, frontend, full-stack |
 | **Rust** | Systems, performance, safety |
 
 ---
 
-## Why Go?
+## Why Java?
 
-- Simple syntax (easy to learn)
-- Fast (compiled language)
-- Great for backend & cloud
-- Built-in concurrency
-- Growing job market
+- Object-oriented (industry standard)
+- Platform independent (JVM)
+- Great for backend & Android
+- Rich standard library
+- Strong job market
 
 ---
 
@@ -51,11 +51,11 @@ Learn these basics first:
 - [ ] Input/Output
 - [ ] Operators
 - [ ] If-else
-- [ ] Loops (for)
-- [ ] Functions
-- [ ] Arrays/Slices
+- [ ] Loops (for, while)
+- [ ] Functions/Methods
+- [ ] Arrays
 - [ ] Strings
-- [ ] Maps
+- [ ] Collections (ArrayList, HashMap)
 - [ ] Debugging
 
 ---
@@ -64,12 +64,12 @@ Learn these basics first:
 
 **Problem:** Even or Odd?
 
-**Go:**
-```go
-if n % 2 == 0 {
-    fmt.Println("Even")
+**Java:**
+```java
+if (n % 2 == 0) {
+    System.out.println("Even");
 } else {
-    fmt.Println("Odd")
+    System.out.println("Odd");
 }
 ```
 
@@ -99,8 +99,8 @@ if (n % 2 == 0) {
 | Question | Your Answer |
 |----------|-------------|
 | Goal? | DSA / Web / Cloud / Data |
-| Platform supports? | Go / C++ / Java / Python |
-| I'll start with: | **Go** |
+| Platform supports? | Java / C++ / Go / Python |
+| I'll start with: | **Java** |
 
 ---
 

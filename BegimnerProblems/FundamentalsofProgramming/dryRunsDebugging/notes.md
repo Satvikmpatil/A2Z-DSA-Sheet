@@ -22,11 +22,11 @@ Manually execute your code step by step on paper.
 
 **Output: 13**
 
-```go
-sum := 0
-for n > 0 {
-    sum += n % 10
-    n /= 10
+```java
+int sum = 0;
+while (n > 0) {
+    sum += n % 10;
+    n /= 10;
 }
 ```
 
@@ -69,38 +69,38 @@ For rule `marks >= 40`:
 ## Common Bugs
 
 ### Bug 1: Loop Never Stops
-```go
+```java
 // WRONG - i never changes
-for i <= n {
-    fmt.Println(i)
+while (i <= n) {
+    System.out.println(i);
 }
 
 // FIX - add i++
-for i <= n {
-    fmt.Println(i)
-    i++
+while (i <= n) {
+    System.out.println(i);
+    i++;
 }
 ```
 
 ### Bug 2: Wrong Init Value
-```go
+```java
 // WRONG - factorial always 0
-answer := 0
-for i := 1; i <= n; i++ {
-    answer *= i
+int answer = 0;
+for (int i = 1; i <= n; i++) {
+    answer *= i;
 }
 
 // FIX - start with 1
-answer := 1
-for i := 1; i <= n; i++ {
-    answer *= i
+int answer = 1;
+for (int i = 1; i <= n; i++) {
+    answer *= i;
 }
 ```
 
 ### Bug 3: Off-by-One
-```go
+```java
 // WRONG - misses last element
-for i := 0; i < n; i++   // runs 0 to n-1
+for (int i = 0; i < n; i++)   // runs 0 to n-1
 
 // Be careful with < vs <=
 ```

@@ -17,7 +17,7 @@ A machine that follows instructions. Fast but **no common sense** — does exact
 | Hardware | Software |
 |----------|----------|
 | Physical parts | Programs |
-| CPU, RAM, Screen | Go, Browser, Apps |
+| CPU, RAM, Screen | Java, Browser, Apps |
 
 ---
 
@@ -30,15 +30,13 @@ A machine that follows instructions. Fast but **no common sense** — does exact
 
 ---
 
-## Your First Go Program
+## Your First Java Program
 
-```go
-package main
-
-import "fmt"
-
-func main() {
-    fmt.Println("Hello, World!")
+```java
+public class Main {
+    public static void main(String[] args) {
+        System.out.println("Hello, World!");
+    }
 }
 ```
 

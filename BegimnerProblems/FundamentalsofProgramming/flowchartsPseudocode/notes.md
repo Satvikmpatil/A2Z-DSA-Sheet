@@ -144,7 +144,7 @@
 
 ## Loop Must Have
 
-1. **Init** — `i := 1`
+1. **Init** — `int i = 1`
 2. **Condition** — `i <= n`
 3. **Body** — what to repeat
 4. **Update** — `i++`
@@ -166,13 +166,13 @@ END WHILE
 DISPLAY sum
 ```
 
-**Go Version:**
-```go
-sum := 0
-for i := 1; i <= n; i++ {
-    sum += i
+**Java Version:**
+```java
+int sum = 0;
+for (int i = 1; i <= n; i++) {
+    sum += i;
 }
-fmt.Println(sum)
+System.out.println(sum);
 ```
 
 ---

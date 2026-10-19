@@ -2,7 +2,7 @@
 
 ## Main Idea
 DSA = Problem solving, not language.  
-You can use **Go**, C++, Java, Python — doesn't matter.
+You can use **Java**, C++, Go, Python — doesn't matter.
 
 ---
 
@@ -10,7 +10,7 @@ You can use **Go**, C++, Java, Python — doesn't matter.
 
 1. **Understand** the problem
 2. **Think** of steps (logic)
-3. **Write** code in Go
+3. **Write** code in Java
 
 ---
 
@@ -18,11 +18,11 @@ You can use **Go**, C++, Java, Python — doesn't matter.
 
 **Logic:** If `n % 2 == 0` → Even, else Odd
 
-```go
-if n % 2 == 0 {
-    fmt.Println("Even")
+```java
+if (n % 2 == 0) {
+    System.out.println("Even");
 } else {
-    fmt.Println("Odd")
+    System.out.println("Odd");
 }
 ```
 
